@@ -1,10 +1,24 @@
 {
     "board_size": 10,
-    "population_size": 20,
-    "generations": 50,
-    "crossover_probability": 0.5,
-    "mutation_probability": 0.5,
-    "elite_percentage": 0.15,
+    "population_size": 10,
+    "generations": 20,
+    "crossover_percentage": 1,
+    "mutation_percentage": 0.2,
+    "elite_percentage": 0.3,
     "top_visualization": 3,
-    "experiment_seeds": 3
-  }  
+    "experiment_seeds": 3,
+    "games_for_agent": 20,
+    "games_per_agent": 50,
+    "bonus": 300,
+    "pen1": 1,
+    "pen2": 10,
+    "pen3":100,
+    "mt_value": 20,
+    "mutation_percent_decision": 0.6,
+    "mutation_percent_board": 0.4,
+    "mutation_new_cromosomes": 50,
+    "board_matching": 0.2,
+    "pen_inactividad_alimenticia": 50,
+    "max_table_size": 2000,
+    "use_multithreading": true
+}
